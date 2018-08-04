@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    overflow: hidden;
     background-color:#ffffff;
     border-bottom: 3px solid #cccccc;
 }
@@ -17,21 +17,23 @@ h1 {
 }
 
 header h1 {
+    float: left;
     margin: 0px 0px 0px 230px;
-    padding: 30px;
+    padding: 32.5px;
     color: #ffffff;
     background-color: #4aaaa5;
 }
 
 nav {
-    margin: 0px 230px 0px 0px;
+    float: right;
+    margin-right: 230px;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    margin: 30px 0px;
+    margin: 31.5px 0px;
 }
 
 nav li {
