@@ -92,6 +92,32 @@ footer {
 }
 
 .main-content p {
-    margin: 0px 30px;
+    margin: 0px 30px 30px;
     line-height: 200%;
+}
+
+form {
+    margin: 20px;
+    padding: 10px 40px 10px 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    border: 1px solid #dddddd;
+    font-size: 15px;
+}
+
+.message {
+    height: 150px;
+    resize: none;
+}
+
+.submit {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
 }
