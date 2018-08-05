@@ -12,15 +12,12 @@ header {
     border-bottom: 3px solid #cccccc;
 }
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 header h1 {
     float: left;
     margin: 0px 0px 0px 230px;
     padding: 32.5px;
     height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     background-color: #4aaaa5;
 }
@@ -120,4 +117,25 @@ form {
     padding: 10px 30px;
     font-size: 15px;
     border: none;
+}
+
+.images {
+    float: left;
+    position: relative;
+    margin: 30px;
+    overflow: hidden;
+}
+
+.images h4 {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: center;
+    
 }
