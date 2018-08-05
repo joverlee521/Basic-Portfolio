@@ -14,7 +14,7 @@ header {
 
 header h1 {
     float: left;
-    margin: 0px 0px 0px 230px;
+    margin: 0px 0px 0px 212px;
     padding: 32.5px;
     height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,7 +24,7 @@ header h1 {
 
 nav {
     float: right;
-    margin-right: 230px;
+    margin-right: 212px;
     text-align: center;
 }
 
@@ -44,6 +44,8 @@ nav li {
 
 nav ul :last-child {
     border-right: none;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 li a {
@@ -51,16 +53,11 @@ li a {
     text-align: center;
     text-decoration: none;
     color: inherit;
-
 }
 
-footer {
-    display: block;
-    background-color: #666666;
-    text-align: center;
-    width: 100%;
-    border-top: 5px solid #4aaaa5;
-    padding-top: 40px;
+li a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 .main-content {
@@ -79,6 +76,7 @@ footer {
     margin: 30px;
     padding: 5px 0px 30px 0px;
     border-bottom: 3px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .profile-pic {
@@ -119,6 +117,12 @@ form {
     border: none;
 }
 
+.submit:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border: 1px solid #4aaaa5;
+}
+
 .images {
     float: left;
     position: relative;
@@ -128,7 +132,7 @@ form {
 
 .images h4 {
     position: absolute;
-    bottom: 15px;
+    bottom: 1px;
     width: 100%;
     margin: 0;
     padding: 20px 0px;
@@ -136,6 +140,14 @@ form {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
+    text-align: center;   
+}
+
+footer {
+    display: block;
+    background-color: #666666;
     text-align: center;
-    
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    padding-top: 40px;
 }
