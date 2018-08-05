@@ -123,6 +123,10 @@ form {
     border: 1px solid #4aaaa5;
 }
 
+.gallery {
+    overflow: hidden;
+}
+
 .images {
     float: left;
     position: relative;
@@ -132,7 +136,7 @@ form {
 
 .images h4 {
     position: absolute;
-    bottom: 1px;
+    bottom: 15px;
     width: 100%;
     margin: 0;
     padding: 20px 0px;
