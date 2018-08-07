@@ -4,7 +4,7 @@ body {
     background-image: url("../images/subtle_white_feathers.png");
     margin: auto;
 }
-
+/* Header styles */
 header {
     display: block;
     overflow: hidden;
@@ -14,17 +14,17 @@ header {
 
 header h1 {
     float: left;
-    margin: 0px 0px 0px 212px;
+    margin: 0px 0px 0px 240px;
     padding: 32.5px;
     height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     background-color: #4aaaa5;
 }
-
+/* Nav Bar styles */
 nav {
     float: right;
-    margin-right: 212px;
+    margin-right: 240px;
     text-align: center;
 }
 
@@ -41,7 +41,7 @@ nav li {
     padding-right: 20px;
     border-right: 1px solid #cccccc;
 }
-
+/* Stops border for the last item on the Nav Bar */
 nav ul :last-child {
     border-right: none;
     padding-right: 0;
@@ -59,7 +59,7 @@ li a:hover {
     background-color: #4aaaa5;
     color: #ffffff;
 }
-
+/* Styles for general main content on all three pages */
 .main-content {
     width: 960px;
     margin: 40px auto;
@@ -79,18 +79,18 @@ li a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.main-content p {
+    margin: 0px 30px 30px;
+    line-height: 200%;
+}
+/* Profile pic styles */
 .profile-pic {
     float: left;
     margin: 0px 30px 30px 30px;
     width: 250px;
     height: auto;
 }
-
-.main-content p {
-    margin: 0px 30px 30px;
-    line-height: 200%;
-}
-
+/* Contact Page styles */
 form {
     margin: 20px;
     padding: 10px 40px 10px 10px;
@@ -122,7 +122,7 @@ form {
     color: #4aaaa5;
     border: 1px solid #4aaaa5;
 }
-
+/* Portfolio gallery styles */
 .gallery {
     overflow: hidden;
 }
@@ -146,7 +146,7 @@ form {
     font-weight: normal;
     text-align: center;   
 }
-
+/* Footer style */
 footer {
     display: block;
     background-color: #666666;
